@@ -1,12 +1,11 @@
-<html>
-<body> 
-    <ul>
-      <li class = "page">About Me</li>
+<html><body>
+  <ul>
+      <li> <a href = "index.html">About Me</a></li>
       <li> <a href = "skills.html">Skills</a></li> 
       <li> <a href = "experiences.html">Experience</a> </li> 
-    <li> <a href = "contact.html">Contact</a> </li>
+    <li class = "page"'>Contact</li>
   </ul>
-  <link href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
 <style>
   li{
     display:inline;
@@ -45,65 +44,24 @@
     background-color:gray;
     color:white;
   }
-  body {
-    background-color:#c7e4f4;
-  }
-  h1 {
-    color:#001a8b;
-    font-family: 'Finger Paint'; text-align: center;
-  }
-  h2 {
-    color:#000000;
-    font-family: Luminari, fantasy; font-size: 50px;text-align: center;
-  }
-  p {
-    font-family:open sans;
-    font-size: 17px;text-align: left;
-  }
-  </style>
-<style>
-
-table, th, td {
-text-align: center;
-  padding: 30px;
-   }
-table.center {
-  margin-left: auto; 
-  margin-right: auto;
+body {
+    font-family: 'Finger Paint';font-size: 15px; text-align: center;
+  background-color: e9edcb;
 }
 </style>
-
-
-
-<table style="width:100%">
-  <table class="center">
-  <tr>
-
-    <td><div class="research">
-   <h2>Tomer Shamir</h1>
-   <h1>software engineer</h1>
-</div>
-      <p> I am a senior studying computer science <br> at Cornell University. I am interested in</br> collaborating with others on software<br>projects, and I enjoy focusing on</br>  algorithms, machine learning, and <br>backend development.</br></p>
-    </td>
-    <td>
-       </td>
-    <td>
-       </td>
-    <td>
-       </td>
-    <td>
-      
-    </td>
-    <td><img src="Tomer_Shamir.png" width="300" height="400"</td>
-       
-  </tr>
-   
- 
-  
-</table>
-
-
-
-
+<form action="/actiofpn_page.php">
+  <h1 style="color:Tomato;">contact me</h1>
+  <h2 style="color:Tomato;">name</h2>
+  <textarea name="name" rows="3" cols="70"></textarea><br>
+   <h2 style="color:Tomato;">email</h2>
+  <textarea name="email" rows="3" cols="70"></textarea><br><br>
+ <h2 style="color:Tomato;">subject</h2>
+<textarea name="subject" rows="3" cols="70"></textarea><br>
+ <h2 style="color:Tomato;">message</h2>
+  <textarea name="message" rows="15" cols="70"></textarea>
+  <br><br>
+  <input type="submit">
+</form>
+  </style>
 </body>
 </html>
